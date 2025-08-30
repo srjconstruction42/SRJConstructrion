@@ -1,6 +1,9 @@
+import React from "react";
+import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Shield, Zap, Users } from "lucide-react";
 import heroImage from "@/assets/hero-construction.jpg";
+
 
 const Hero = () => {
   return (
@@ -40,10 +43,10 @@ const Hero = () => {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
             <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground">
-              Request a Quote
+              <a href="/requestquoteform">Request a Quote</a>
               <ArrowRight className="w-5 h-5 ml-2" />
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-construction-gray">
+            <Button size="lg" variant="outline" className="border-white text-white  hover:text-construction-gray">
               View Services
             </Button>
           </div>

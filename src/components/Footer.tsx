@@ -1,3 +1,6 @@
+import logooImage from "@/assets/logoo.jpg";
+
+
 const Footer = () => {
   const quickLinks = [
     { name: "Services", href: "#services" },
@@ -13,10 +16,14 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-accent rounded-md flex items-center justify-center">
-                <span className="text-accent-foreground font-bold text-sm">S</span>
-              </div>
-              <span className="font-bold text-xl">SRJ CONSTRUCTION</span>
+            
+               <div className="w-96 h-32 bg-gradient-hero rounded-lg flex items-center justify-center">
+              <img
+          src={logooImage}
+          alt="Modern construction site"
+          className="w-full h-full object-cover"
+        />
+            </div>
             </div>
             <p className="text-white/80 mb-4">
               Building smart, strong & sustainable projects with innovative methods and quality execution.

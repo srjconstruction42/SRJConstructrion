@@ -202,18 +202,16 @@ const Contact = () => {
                 </h4>
                 <div className="flex space-x-4">
                   <Button variant="outline" size="sm">
-                    LinkedIn
+                   <a href="">LinkedIn</a> 
                   </Button>
                   <Button variant="outline" size="sm">
-                    Instagram
+                    <a href="https://www.instagram.com/srj.construction?igsh=MXF2YnBsMml3cGk4Ng==">Instagram</a>
                   </Button>
                   <Button variant="outline" size="sm">
-                    Facebook
+                    <a href="https://www.facebook.com/profile.php?id=61580066517468">Facebook</a>
                   </Button>
                 </div>
-                <p className="text-sm text-muted-foreground mt-2">
-                  (coming soon)
-                </p>
+                
               </CardContent>
             </Card>
           </div>
